@@ -34,6 +34,7 @@ Simply run the provided `bfpp.py` script on the branifuck source file. This will
 - Change `cp` directive to take the tmp byte location
 - Use a CFG for parsing instead of regex in order to allow spaces in parameters
 - Use a better format (non lisp) for directives
+- Implement alternative directives to work on 4-byte integers (so i can work with negative numbers and ones larger than 255) 
 
 
 
